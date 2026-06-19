@@ -123,8 +123,8 @@ function Preloader({ onDone }: { onDone: () => void }) {
             display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden",
           }}>
             <img
-              src="/logo/Gemini_Generated_Image_phk392phk392phk3.png"
-              alt="The Bharat Plus"
+              src="/logo/logo.png"
+              alt="Bharat TV"
               style={{ width: 56, height: 56, objectFit: "contain" }}
             />
           </div>
@@ -138,7 +138,7 @@ function Preloader({ onDone }: { onDone: () => void }) {
           opacity: phase === "in" ? 0 : 1,
           transform: phase === "in" ? "translateY(15px)" : "translateY(0)",
           transition: "opacity 0.7s ease 0.25s, transform 0.7s ease 0.25s",
-        }}>The Bharat Plus</p>
+        }}>Bharat TV</p>
 
         {/* Tagline */}
         <p style={{

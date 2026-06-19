@@ -7,7 +7,7 @@ export const Footer = () => {
 
       <div className="relative max-w-7xl mx-auto flex flex-col items-center text-center gap-4">
         <Link to="/">
-          <img src="/logo/Gemini_Generated_Image_phk392phk392phk3.png" alt="Logo" className="h-14 w-auto object-contain" />
+          <img src="/logo/logo.png" alt="Logo" className="h-14 w-auto object-contain" />
         </Link>
         <p className="text-white/50 text-base">Your gateway to premium desi thriller, crime &amp; drama content</p>
         <p className="text-white/30 text-sm">Copyright © 2026, Zeen Digital Solutions LLP All Rights Reserved</p>
